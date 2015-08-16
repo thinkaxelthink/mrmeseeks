@@ -1,0 +1,14 @@
+{
+  "name": "mrmeeseeks",
+  "version": "0.0.1",
+  "description": "Meeseeks are creatures created to serve a singular purpose for which they will go to any length to fulfill.  After they serve their purpose, they expire.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axel Esquite <axel.esquite@vice.com> (https://github.com/VICEMedia)",
+  "license": "ISC",
+  "dependencies": {
+    "slack-node": "^0.1.3"
+  }
+}
