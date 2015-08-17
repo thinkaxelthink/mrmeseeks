@@ -4,11 +4,22 @@
   "description": "Meeseeks are creatures created to serve a singular purpose for which they will go to any length to fulfill.  After they serve their purpose, they expire.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Axel Esquite <axel.esquite@vice.com> (https://github.com/VICEMedia)",
   "license": "ISC",
   "dependencies": {
-    "slack-node": "^0.1.3"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "node-yaml-config": "0.0.3",
+    "slack-node": "^0.1.3",
+    "wolfram": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
   }
 }

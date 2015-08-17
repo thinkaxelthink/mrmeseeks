@@ -1,0 +1,5 @@
+default:
+    wolfram:
+        app_id: 'P766JX-H5HGVGA97J'
+    slack:
+        token: 'LDj1Siud8EV0PU5tQpq6cG6T'
